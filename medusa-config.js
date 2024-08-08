@@ -52,6 +52,12 @@ const plugins = [
       },
     },
   },
+  {
+    resolve: "medusa-plugin-anamnesis",
+    options: {
+      enableUI: true,
+    },
+  },
 ];
 
 const modules = {
